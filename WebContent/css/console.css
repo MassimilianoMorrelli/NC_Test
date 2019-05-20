@@ -1,0 +1,76 @@
+/* Stile dell'intera pagina */
+* {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #343a40;
+}
+
+/* corpo della pagina */
+body {
+  background-color: #EAEAEA;
+}
+
+body > .container {
+  padding: 80px 15px 0;
+  margin-bottom: 100px;
+}
+
+/* footer */
+.footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 30px; /* Vertically center the text there */
+  background-color:	#343a40;;
+  font-size: 80%;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* tabella */
+
+.table-striped{
+  background-color: #FEFEFE;
+  border-top: hidden;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.btnOK {
+   padding: 6px 8px;
+   font-size: 14px;
+   line-height: 1.3333333;
+   border-radius: 6px;
+}
+
+.btnNUM {
+    background-color: #00bfff
+  }
+
+.btn2 {
+  background-color: #00bfff;
+  margin-right: 45px;
+}
+
+.container2 {
+  padding: 15px 15px;
+  background-color: #e6f2ff;
+}

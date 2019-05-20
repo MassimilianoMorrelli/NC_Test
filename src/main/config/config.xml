@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <database ip_address="172.24.161.11" port="27017" name="NC_INFORMATION_RETRIEVAL"/>
+  <service timeout="5" start_port="11077" stop_port="11078" secure_port="11079"/>
+</config>
