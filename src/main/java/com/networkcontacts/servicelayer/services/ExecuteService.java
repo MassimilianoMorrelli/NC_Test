@@ -39,7 +39,7 @@ import com.networkcontacts.servicelayer.core.utils.Utils;
 import com.networkcontacts.servicelayer.services.interceptors.BooleanIntrospector;
 import com.networkcontacts.servicelayer.services.interceptors.XMLLoggingInInterceptor;
 
-//CovelliGay2volte2
+//CovelliGay2volte23
 
 @Path("/executeService/")
 public class ExecuteService extends SOAPGeneralService{
